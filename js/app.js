@@ -14,17 +14,35 @@ Quotes change automatically after a certain amount of time passes [ use setTimeo
 */
 
 
+/***
+ * `getRandomNum function to generate a random Number
+***/
+const getRandomNum = function(){
+  return Math.floor(Math.random()*20);
+  return randomNum;
+}
+console.log(getRandomNum())
 
 /***
- * `getRandomQuote` function
+ * `getRandomQuote` function, use the randomNum to index one of the quotes.
 ***/
+const getRandomQuote = function() {
+  
+}
 
+/***
+ * `getRandomColor` function uses the randomNum to generate a color.
+***/
+const getRandomColor = function(){
 
+}
 
 /***
  * `printQuote` function
 ***/
+const printQuote = function() {
 
+}
 
 
 /***

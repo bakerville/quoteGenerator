@@ -119,7 +119,7 @@ const quotes = [
     year:'September 3, 1998',
   },
   {
-    quote: "All men dream... but not equally. Thos who dream by night, in the dusty recesses of their minds, wake in the day to find that it was vanity... But the dreamers of the day are dangerous men, for they may act their dream with open eyes, tomake it possible. This I did.",
+    quote: "All men dream... but not equally. Those who dream by night, in the dusty recesses of their minds, wake in the day to find that it was vanity... But the dreamers of the day are dangerous men, for they may act their dream with open eyes, tomake it possible. This I did.",
     source:'Uncharted 3',
     citation: "From T. E. Lawrence’s Seven Pillars of Wisdom",
     year:'November 1, 2011',

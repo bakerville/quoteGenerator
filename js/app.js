@@ -15,12 +15,11 @@ Quotes change automatically after a certain amount of time passes [ use setTimeo
 
 
 /***
- * `getRandomNum function to generate a random Number
+ * `getRandomNum function to generate a random Number 0 -19
 ***/
 
-const getRandomNum = function(){
-  return Math.floor(Math.random()*20);  
-}
+const getRandomNum = ()=> Math.floor(Math.random()*20);  
+
 
 let randomNum = getRandomNum();
 
@@ -28,12 +27,12 @@ let randomNum = getRandomNum();
 /***
  * `getRandomQuote` function, use the randomNum to index one of the quotes.
 ***/
-const getRandomQuote = function() {
-  
-  let randomQuote = quotes[randomNum];
+const getRandomQuote = function() {  
+  let randomQuote = quotes[randomNum].quote;  
   return randomQuote;
 }
 console.log(getRandomQuote());
+
 /***
  * `getRandomColor` function uses the randomNum to generate a color.
 ***/

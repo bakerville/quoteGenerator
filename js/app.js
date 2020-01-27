@@ -31,8 +31,7 @@ const getRandomQuote = function() {
   let randomQuote = quotes[randomNum].quote;  
   return randomQuote;
 }
-console.log(getRandomQuote());
-
+let newQuote = getRandomQuote();
 /***
  * `getRandomColor` function uses the randomNum to generate a color.
 ***/
@@ -40,16 +39,16 @@ const getRandomColor = function(){
   let randomColor = colors[randomNum];
   return randomColor;
 }
-console.log(getRandomColor());
+
+let newColor = getRandomColor();
 /***
  * `printQuote` function
 ***/
 const printQuote = function(randomQuote, randomColor) {
   document.getElementById("quote-box").innerHTML =`
-  <p class="quote" style ="color: ${randomColor}">
-  ${randomQuote}
-  Every great developer you know got there by solving problems they were
-  unqualified to solve until they actually did it.
+  <p class="quote" >
+  ${newQuote}
+  
 </p>
 <p class="source">
   Patrick McKenzie<span class="citation">Twitter</span
@@ -57,11 +56,11 @@ const printQuote = function(randomQuote, randomColor) {
 </p>
   `  
 }
-console.log(printQuote())
+// style ="background: ${newColor}
 
 /***
  * click event listener for the print quote button
  * DO NOT CHANGE THE CODE BELOW!!
 ***/
-//changing style color via JS:  document.getElementById('').style.color =`${}`;
+
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
